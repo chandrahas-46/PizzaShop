@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to top, #fff1eb 0%, #caeeff 100%);
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* App.js */
+.orderButton {
+  margin-bottom: 1rem;
+}
+
+
+/* *************************** STAGE SECTION ************************** */
+.container {
+  display: flex;
+  margin-bottom: 4rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container hr {
+  width: 80%;
+}
+
+.column {
+  flex: 1;
+  /* margin: 0 10px; */
+  border: 1px solid black;
+  padding: 1.3rem;
+}
+
+/* Styling for each pizza card */
+.pizza_card {
+  border: 1px solid #ccc;
+  border-radius: 10%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.pizza_card.delayed {
+  background-color: red;
+}
+
+/* *************************** STAGE SECTION ************************** */
+
+
+
+/* *************************** MAIN SECTION************************** */
+.main_section {
+  margin-bottom: 4rem;
+}
+
+.main_section table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-collapse: collapse;
+  /* align-items: center; */
+}
+
+.main_section th, .main_section td {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+
+.main_section th {
+  background-color: #f2f2f2;
+}
+
+.main_section td button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main_section td button:hover {
+  background-color: #d32f2f;
+}
+
+.main_section tfoot td {
+  padding-left: 2rem;
+  font-weight: bold;
+  text-align: left;
+}
+
+.main_section tfoot tr, .main_section tfoot td {
+  border: 2px solid #f48115;
+  border-color: #f48115;
+}
+/* *************************** MAIN SECTION************************** */
+
+
+
+/* *************************** ORDER FORM ************************** */
+.pizza_form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.input_group {
+  margin-bottom: 20px;
+}
+
+.input_group label {
+  display: inline;
+  margin-bottom: 5px;
+  
+  margin-right: 20px;
+}
+
+.input_group label:first-child {
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+/* *************************** ORDER FORM ************************** */
