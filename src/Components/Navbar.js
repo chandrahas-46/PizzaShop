@@ -7,7 +7,7 @@ export default function Navbar(){
         <>
             <div className={styles.navbarContainer}> 
                 <div className={styles.appName}>
-                    TEACHMINT
+                    MYAPP
                 </div>
 
                 <div>
