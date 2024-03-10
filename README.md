@@ -1,7 +1,7 @@
 # Pizza-Shop
 This project is a frontend React app which encourage a pizza restaurant behavior from taking orders to making the order ready. It allows users to track their pizza order.
 ### Live Url: https://pizza-shop-250e2.web.app/
-### Backend API_Document (swagger) Url: https://pizzashop-api-xk6s.onrender.com/docs/
+<!-- ### Backend API_Document (swagger) Url: https://pizzashop-api-xk6s.onrender.com/docs/ -->
 
 ## Features:
  1. add a form from which pizza can be configured & ordered with following options
